@@ -19,3 +19,7 @@ th testNet.lua -string 'Testing testing'
 th testNet.lua -string 'this is awesome'
 ```
 ![alt tag](https://github.com/jarmstrong2/handwritingnet/blob/master/samples/thisisawesome.png)
+
+* Below is the attention plot which represents by how many timesteps the model will focus on a certain character in a string (moving in a left to right direction)
+
+![alt tag](https://github.com/jarmstrong2/handwritingnet/blob/master/samples/thisisawesome_attention.png)
