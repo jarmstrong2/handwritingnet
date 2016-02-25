@@ -13,8 +13,9 @@ To train the model:
 th driver.lua 
 ```
 
-Explore driver.lua for command options. Including specifying a validation and training set. Currently toy.t7 is provided, but a larger training set can be created by downloading the IAM handwriting database: http://www.fki.inf.unibe.ch/databases/iam-on-line-handwriting-database
+Explore driver.lua for command options. Including specifying a validation and training set. Currently toy.t7 is provided, but a larger training set can be created by downloading the IAM handwriting database and following the directions in the Graves' paper: http://www.fki.inf.unibe.ch/databases/iam-on-line-handwriting-database
 
+## Results
 ```
 th testNet.lua -string 'How are you doing today'
 ```
