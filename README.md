@@ -14,3 +14,8 @@ th testNet.lua -string 'How are you doing today'
 th testNet.lua -string 'Testing testing'
 ```
 ![alt tag](https://github.com/jarmstrong2/handwritingnet/blob/master/samples/testingtesting.png)
+
+```
+th testNet.lua -string 'this is awesome'
+```
+![alt tag](https://github.com/jarmstrong2/handwritingnet/blob/master/samples/thisisawesome.png)
