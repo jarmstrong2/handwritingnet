@@ -2,8 +2,18 @@
 
 This RNN is a reconstruction of Alex Graves' work presented in his paper: http://arxiv.org/abs/1308.0850
 
-## Results
-* Each multicolored line represents a new pen stroke.
+## Model
+
+The model is precisely the same as the one presented in the paper above. Essentially, this is an RNN with three
+LSTM layers, a windowing layer that learns attention for each character in the input string, and a mixture of
+Gaussians criterion layer.
+
+To train the model:
+```
+th driver.lua 
+```
+
+Explore driver.lua for command options. Including specifying a validation and training set. Currently toy.t7 is provided, but a larger training set can be created by downloading the IAM handwriting database: http://www.fki.inf.unibe.ch/databases/iam-on-line-handwriting-database
 
 ```
 th testNet.lua -string 'How are you doing today'
