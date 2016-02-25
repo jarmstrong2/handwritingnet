@@ -10,7 +10,9 @@ Gaussians criterion layer.
 
 To train the model:
 ```
-th driver.lua 
+th driver.lua -inputSize INPUT_DIMENSION -hiddenSize LSTM_UNIT_SIZE -lr LEARNING_RATE 
+-maxlen MAXIMUM_NUMBER_OF_TIMESTEPS -batchSize BATCH_SIZE_OF_DATA -numPasses NUMBER_OF_PASSES
+-valData PATH_TO_VALIDATION_DATA -trainData PATH_TO_TRAINING_DATA
 ```
 
 Explore driver.lua for command options. Including specifying a validation and training set. Currently toy.t7 is provided, but a larger training set can be created by downloading the IAM handwriting database and following the directions in Graves' paper: http://www.fki.inf.unibe.ch/databases/iam-on-line-handwriting-database
