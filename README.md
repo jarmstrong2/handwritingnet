@@ -17,7 +17,7 @@ Explore driver.lua for command options. Including specifying a validation and tr
 
 ## Results
 ```
-th testNet.lua -string 'How are you doing today'
+th testNet.lua -string 'How are you today'
 ```
 ![alt tag](https://github.com/jarmstrong2/handwritingnet/blob/master/samples/howareyoutoday.png)
 
