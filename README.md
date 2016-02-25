@@ -10,8 +10,9 @@ Gaussians criterion layer.
 
 To train the model:
 ```
-th driver.lua -inputSize INPUT_DIMENSION -hiddenSize LSTM_UNIT_SIZE -lr LEARNING_RATE 
--maxlen MAXIMUM_NUMBER_OF_TIMESTEPS -batchSize BATCH_SIZE_OF_DATA -numPasses NUMBER_OF_PASSES
+th driver.lua -inputSize INPUT_DIMENSION -hiddenSize LSTM_UNIT_SIZE 
+-lr LEARNING_RATE -maxlen MAXIMUM_NUMBER_OF_TIMESTEPS 
+-batchSize BATCH_SIZE_OF_DATA -numPasses NUMBER_OF_PASSES
 -valData PATH_TO_VALIDATION_DATA -trainData PATH_TO_TRAINING_DATA
 ```
 
