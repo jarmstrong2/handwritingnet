@@ -16,6 +16,9 @@ th driver.lua
 Explore driver.lua for command options. Including specifying a validation and training set. Currently toy.t7 is provided, but a larger training set can be created by downloading the IAM handwriting database and following the directions in the Graves' paper: http://www.fki.inf.unibe.ch/databases/iam-on-line-handwriting-database
 
 ## Results
+
+* Each multicolored line represents a new pen stroke.
+
 ```
 th testNet.lua -string 'How are you today'
 ```
