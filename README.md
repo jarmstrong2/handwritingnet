@@ -2,6 +2,8 @@
 
 This RNN is a reconstruction of Alex Graves' work presented in his paper: http://arxiv.org/abs/1308.0850
 
+![alt tag](https://github.com/jarmstrong2/handwritingnet/blob/master/alexModel.png)
+
 ## Model
 
 The model is precisely the same as the one presented in the paper above. Essentially, this is an RNN with three
