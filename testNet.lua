@@ -157,4 +157,7 @@ for i=1,#rs do
 end
 
 gnuplot.plot(plotter)
+gnuplot.raw('unset key')
 gnuplot.axis({-200,4000,-1000,3000})
+gnuplot.figprint("sample.png")
+
